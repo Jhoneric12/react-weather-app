@@ -42,7 +42,7 @@ function Weather() {
                     <input 
                     value={city}
                     type="text"
-                    className='py-[0.875rem] px-[2rem] rounded-[40px] mr-3'
+                    className='py-[0.875rem] px-[2rem] rounded-[40px] mr-3 w-full'
                     placeholder='Search City' 
                     onChange={(e) => setCity(e.target.value)}
                     onKeyDown={getData}
