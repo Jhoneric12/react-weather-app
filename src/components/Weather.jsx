@@ -34,7 +34,8 @@ function Weather() {
 
 
   return (
-    <div className='flex justify-center text-center items-center h-screen'>
+    <div className='flex flex-col gap-10 justify-center text-center items-center h-screen bg-[#27374D] select-none'>
+        <h1 className='text-2xl font-bold text-white'>Real-Time Weather Forecast</h1>
         <div className='weather-container flex flex-col items-center justify-center  w-[80%] h-[35rem] rounded-[30px] bg-[rgba(255,255,255,0.2)] md:w-[40%] md:flex md:items-center'>
             <div className='flex items-center flex-col justify-center w-full'>
                 {hasResult ? <h1 className='text-[red] mb-4'>Invalid City! Try Again</h1> : null}
